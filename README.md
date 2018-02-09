@@ -13,4 +13,7 @@ react快速配置echart图形
 3、ant           布局框架(非必须)
 4、echart        图标插件
 
+# 运行
+npm install  安装
+npm start    运行本地环境
 ps:组件没有做封装，代码有些乱，仅供参考

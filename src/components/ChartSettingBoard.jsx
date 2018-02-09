@@ -131,7 +131,7 @@ export class ChartSettingBoard extends Component {
             })
 
             return (
-                <Col sm={8} key={idx} className={dropConfig.length > 3 ? 'shortBox' : 'longBox'}>
+                <Col sm={10} key={idx} className={dropConfig.length > 3 ? 'shortBox' : 'longBox'}>
                     <ConfigDropBox move={this.dragEleMove} item={item} id={idx} canDrop={this.canDrop}>
                         {items}
                     </ConfigDropBox>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Icon, Row, Col, Select, Popover } from 'antd'
 import { SketchPicker } from 'react-color';
-import './dropElement.less'
+import './dropElement.css'
 
 const Option = Select.Option;
 

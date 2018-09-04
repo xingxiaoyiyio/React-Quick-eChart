@@ -1,5 +1,5 @@
-.dropElement {
-    .xItem {
+
+    .dropElement     .xItem {
         margin-top: 5px;
         overflow: hidden;
         width: 100%;
@@ -10,7 +10,7 @@
         border-radius: 4px;
         border: solid 1px #0099cc;
     }
-    .yItem {
+    .dropElement    .yItem {
         margin-top: 5px;
         overflow: hidden;
         width: 100%;
@@ -19,38 +19,41 @@
         line-height: 32px;
         height: 32px;
         background-color: #fff;
-        border-radius: 4px;
-        .icon {
+        border-radius: 4px;}
+
+        .dropElement    .yItem   .icon {
             padding-left: 0
         }
-    }
-    .typeSelect {
-        width: 100%;
-        .ant-select-arrow {
+    
+    .dropElement   .typeSelect {
+        width: 100%;}
+
+         .dropElement   .typeSelect    .ant-select-arrow {
             right: 5px
         }
-    }
-    .ant-select-selection__rendered {
+    
+    .dropElement   .ant-select-selection__rendered {
         margin-left: 5px;
         margin-right: 5px
     }
-    .ant-select-selection {
+    .dropElement   .ant-select-selection {
         border: none
     }
-    .anticon-close {
+    .dropElement  .anticon-close {
+        margin-top: 8px;
         padding: 0
     }
-    .ant-select-selection-selected-value {
+    .dropElement  .ant-select-selection-selected-value {
         padding: 0
     }
-    .ant-select-focused :focus {
+    .dropElement  .ant-select-focused :focus {
         box-shadow: none !important;
         border: none
     }
-    .type {
+    .dropElement  .type {
         float: right;
     }
-    .colorLabel {
+    .dropElement   .colorLabel {
         position: absolute;
         display: block;
         width: 12px;
@@ -58,4 +61,3 @@
         height: 12px;
         top: 2px;
     }
-}

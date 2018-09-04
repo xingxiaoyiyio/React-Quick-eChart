@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './dragElement.less'
+import './dragElement.css'
 import { Button } from 'antd'
 import { DragSource } from 'react-dnd';
 

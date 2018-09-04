@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { DropTarget } from 'react-dnd';
 import { Icon, Popover } from 'antd'
-import './configDropBox.less'
+import './configDropBox.css'
 
 const ItemTypes = 'item'
 const itarget = {

@@ -6,7 +6,7 @@ import DropConfigChart from './DropConfigChart';
 import DropElement from './DropElement';
 import update from 'immutability-helper';
 import echartConfig from './echartConfig';
-import './chartSettingBoard.less'
+import './chartSettingBoard.css'
 
 import ConfigDropBox from './ConfigDropBox'
 import DragElement from './DragElement'

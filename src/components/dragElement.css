@@ -9,8 +9,8 @@
     background-color: #e6fdff;
     border-radius: 4px;
     border: solid 1px #0099cc;
-    .type {
+}
+.dragElement    .type {
         color: #0099cc;
         float: right
     }
-}
